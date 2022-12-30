@@ -22,7 +22,7 @@ let isLoggedIn=true//booleanType is  yes or no just (0 or 1)
 //object  
 console.log(typeof"AJ");
 console.log(typeof age);
-console.log(typeof undefined);//undefined
+console.log(typeof undefined);//undefined`
 
 
 console.log(typeof null);//null is an object 
