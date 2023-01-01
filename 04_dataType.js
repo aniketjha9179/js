@@ -18,6 +18,7 @@
 // ""=>false
 // "ANiket"=>true
 
-let  someNumer=33;
-let stringNumer= String(someNumer);
-console.log(typeof stringNumer)
+// let  someNumer=33;
+// let stringNumer= String(someNumer);
+// console.log(typeof   stringNumer)
+

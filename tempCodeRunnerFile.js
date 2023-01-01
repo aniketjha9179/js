@@ -1,11 +1,4 @@
-
-// let x;
-// console.log(x, typeof x);
-// x=8
-// console.log(x, typeof x);
-
-// x=x+""
-// console.log(x, typeof x);
-
-// x=x-2;
-// console.log(x, typeof x);
+let x ="2"
+let y=4;
+let data = x>y 
+console.log(data);
