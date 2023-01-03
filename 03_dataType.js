@@ -108,13 +108,13 @@
 // let num3 = 7;
 
 // if (num1 > num2 && num1 > num3)
-// { 
+// {
 //     console.log("num1 is greater");
 // }
 // else if (num2 > num3) {
 //   console.log("num2 is greatrr");
 //   console.log("yeee");
-// } 
+// }
 // else {
 // {
 //     console.log("numr3 is greater");
@@ -123,17 +123,104 @@
 // }
 // console.log("byee...");
 
-let num1=3;
+// let num1=4.4;
 
-let result
+// let result
 
-// if(num1%2===0)
-// result="even"
+// // if(num1%2===0)
+// // result="even"
 
-// else
-// result="odd"
+// // else
+// // result="odd"
 
-// turnery operator>> ?:
-// turnery operator>> ?:
-result= num1%2===0 ? "even " :  "odd";
-console.log(result);
+// // turnery operator>> ?:
+// // turnery operator>> ?:
+// result= num1%2===0 ? "even " :  "odd";
+// console.log(result);
+
+// swtich case  in js \
+
+// let day = "holliday";
+
+//8am
+// switch (day) {
+//   case "sun":
+//     console.log("8 am uthna hai");
+//     break;
+//   case "tue":
+//     console.log("7am ");
+//     break;
+//   case "wed":
+//     console.log("7am");
+//     break;
+//   case "mon":
+//     console.log("7am");
+//     break;
+//   case "thu":
+//     console.log("7am");
+//     break;
+//   case "fri":
+//     console.log("7:30 am");
+//     break;
+//     case 'sat':
+//         console.log("9am");
+//         break;
+
+//   default:
+//     console.log("12 baj gaye bhen ke lode-modi");
+//     break;
+// }
+// template literal 
+// let num1=666;
+// let num2=4;
+// let result = num1 + num2;
+// // console.log("result of " + num1 + " and "+ num2 +" is "+ result); //concatinaton  +its something borig (complicated) so we use tamplate literal ``
+// console.log(` the additon of ${num1} and ${num2} is${result}`);
+// // also 
+// // console.log(`my name is 
+// // Aniket Jha`);
+
+// loops  
+// while  
+// do while
+// for 
+// repeat this statement 5 time 
+// initilize, condition, increament
+// let i=1;
+// while(i<=5)
+// {
+
+//     console.log("hi", i);
+//     i++;
+// }
+// // do while  
+// let i=10;
+// do{
+//     console.log("HI",i);
+// }
+// while(i<=5)
+// let i=1;
+// for(;;)
+// {
+//     console.log("helo", i);
+//     i++;
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
