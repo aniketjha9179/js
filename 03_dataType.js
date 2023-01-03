@@ -208,7 +208,24 @@
 // }
 
 
+// for (let i=1;i<=5;i++)
+// {
+//     console.log("Hi",i);
+//     for(let k=1;k<=5;k++)
+//     console.log("hello ", k);
+// }
 
+// every loop has its own 
+let num=4343435434; 
+num2=0;
+
+while(num>0)
+{
+
+console.log(num%10);
+num = parseInt(num/10);
+}
+console.log();
 
 
 
