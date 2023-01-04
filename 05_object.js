@@ -21,5 +21,4 @@ let Alien =
 // for loop  in  object  can  fetch  key value from the object  for ex: 
 for(let key in Alien){
     console.log(key.Alien) //this will js js js js in all key we hardcoded here so 
-
 }
