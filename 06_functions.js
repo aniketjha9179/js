@@ -168,6 +168,6 @@
 // Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements
 
  
-// let data= [5,6,7,8,67];
-// console.log(data.splice(2,2,11,22));//splice(2,1)(2 is index value and 1 is no. of values we want to remove)
-// console.log(data); 
+let data= [5,6,7,8,67];
+console.log(data.splice(2,2,11,22));//splice(2,1)(2 is index value and 1 is no. of values we want to remove)
+console.log(data); 
