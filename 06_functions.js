@@ -163,11 +163,42 @@
 // console.log(data.unshift(2,5,5,6));
 // console.log(data);
 
-
+// arrays method part 
 // SPLICE METHOD IN  JS 
 // Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements
 
  
-let data= [5,6,7,8,67];
-console.log(data.splice(2,2,11,22));//splice(2,1)(2 is index value and 1 is no. of values we want to remove)
-console.log(data); 
+// let data= [5,6,7,8,67];
+// console.log(data.splice(2,2,11,22));//splice(2,1)(2 is index value and 1 is no. of values we want to remove)
+// console.log(data); 
+
+
+// for-of loop 
+
+// let nums=[];
+// nums[0]=5;
+// nums[99]=99;
+// //for-of loop makes sense
+ 
+// console.log(nums);
+
+// for(let k   of nums){
+//     console.log(k);
+// }
+
+// for-in loop 
+// for(let key in nums){
+//      console.log(nums[key]);
+// } 
+
+// DESTRUCTURING AN ARRAY
+
+// let nums=[ 4,5,6,7]  
+// console.log(nums);
+// let [a,b,,d]=nums
+// console.log(d); 
+
+//... special operator  ...d means rest of the arrays 
+// let str= "my name is navin reddy vlog dfdda".split(" ");
+// let [a,b,, ...d]= str
+// console.log(d);
