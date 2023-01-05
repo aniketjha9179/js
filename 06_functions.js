@@ -99,3 +99,75 @@
 // alien1.tech = "blockchain";
 // console.log(alien1);
 // alien1.work();
+
+// arrays
+// Array
+
+// creation of an array
+// let values =[5,6,5];
+// // values.push(6,54,64,545,54,454)//its work also to fetch values in array
+// console.log(values[2]);//by this we can fetch  index values of an array
+
+// array including  such as String, number ,  object,  function
+// let data = [
+//   "Aniket ",
+//   "Aj",
+//   "jay",
+//   433,
+//   { tech: "JAVA" },
+//   function () {
+//     console.log("hello world");
+//   },
+// ];
+// console.log(data);
+// // calling function by index value  and callback()
+// data[5]();
+
+
+ 
+// PUSH METHOD IN JS 
+
+// let data=  [5,6,7,8,54]; //it will also give array value 
+// console.log(data.push(3));//pushes 3 value at the last of the array
+// console.log(data);
+
+// POP METHOD
+// in this method pop () last in first-out
+
+// let data=  [5,6,7,8]; //it will also give array value 
+// // console.log(data.push(3));//pushes 3 value at the last of the array
+// console.log(data.pop());//which ever element will we there in the array will first to remove
+// console.log(data);
+
+// SHIFT METHOD IN JS
+
+// so shift remove element from the  array to left hand side <======= for example
+
+// let data= [3,4,5,6,65]
+// console.log(data.shift());
+// console.log(data);
+
+
+
+// difference b/w 
+// pop                            //  shift 
+// [4,6,6,7,6]                       it remove the Element start                                  //   from last 
+// it remove the Element
+// from last 
+
+
+// UNSHIFT METHOD IN   JS  
+// it add a value in array in right hand side ==========>
+
+// let data=[3,35,6,6]
+// console.log(data.unshift(2,5,5,6));
+// console.log(data);
+
+
+// SPLICE METHOD IN  JS 
+// Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements
+
+ 
+// let data= [5,6,7,8,67];
+// console.log(data.splice(2,2,11,22));//splice(2,1)(2 is index value and 1 is no. of values we want to remove)
+// console.log(data); 
