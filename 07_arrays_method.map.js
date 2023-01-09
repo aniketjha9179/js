@@ -48,18 +48,28 @@
 // map is a class 
 //set  updates the value if exist 
 
-let map = new Map();
-map.set("navin","java");
-map.set("Aj","c++");
-map.set("sonam","native");
-map.set("navin","js");
+// let map = new Map();
+// map.set("navin","java");
+// map.set("Aj","c++");
+// map.set("sonam","native");
+// map.set("navin","js");
 
-// console.log(map.keys());
-// console.log(map.get("navin"));//value
+// // console.log(map.keys());
+// // console.log(map.get("navin"));//value
 
-// for(let [k,v] of map){
-//     console.log(k, " : ", v);
-// } 
-map.forEach((v,k)=>{
-    console.log(k," : ", v );
-})
+// // for(let [k,v] of map){
+// //     console.log(k, " : ", v);
+// // } 
+// map.forEach((v,k)=>{
+//     console.log(k," : ", v );
+// })
+
+// let num =1;
+// function show(){
+//     console.log("hi",num);
+//     num++;
+//     show();
+// }
+// show();
+
+
