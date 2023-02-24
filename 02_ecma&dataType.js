@@ -3,7 +3,7 @@
 // ("use strict";) if we are using this line then whole code will  written in  newer version of js engine
 // now days js engine already uses the strict mode by default
 
-// alert(2+2) WILLNOT WORK AS WE ARE USING NODEJS, NOT BROWSER
+// alert(2+2) WILL NOT WORK AS WE ARE USING NODEJS, NOT BROWSER
 
 let name="Aniket Jha"//string dataType
 let age=20;//int datatype (range 2 to power 53-1)
