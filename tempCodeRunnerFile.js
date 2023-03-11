@@ -1,8 +1,5 @@
-let MyDate= new Date()
-// console.log(MyDate.toString());
-// console.log(MyDate.toDateString());
-// console.log(MyDate.toISOString());
-// console.log(MyDate.toLocaleString());
-// console.log(MyDate.toUTCString());
-// console.log(typeof MyDate);
-
+let step = 0;
+// while (step < 5) {
+//   console.log("step", step);
+//   step += 1;
+// }
