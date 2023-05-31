@@ -1,3 +1,4 @@
-# js
-covering the most of the topic in js
+# JS
+covering the most of the topic in JS
 
+ 
