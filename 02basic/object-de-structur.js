@@ -10,6 +10,6 @@ const me = {
 // console.log(me.RAM);
 
 // object de-structur {objectkey:smallkey}
-const {courseName: padai} = me
+const {courseName: padai } = me
 console.log(padai);
 
