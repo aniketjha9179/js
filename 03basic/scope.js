@@ -42,7 +42,9 @@ function  addOne(num){
 
 //if we are holding a function in variable then we call it then this will give use error :cannot access before  initialize before 
  addTwo(5)
- const addTwo =function(num){
+ const addTwo = function(num){
     return num +2
 
  }
+
+ 
