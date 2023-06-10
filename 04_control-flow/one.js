@@ -48,12 +48,12 @@ if (loggedInFromGoogle || loggedInFromEmail || guestUSer)  {
 let val1 ;
 // val1 = 5 ?? 10
 // val1 = null?? 10
-// val1 = undefined ?? 15
+val1 = undefined ?? 15
 
 
 //whatever the first value is there  will  be assign  first
 
-val1 = null ?? 10 ?? 11
+// val1 = null ?? 10 ?? 11
 
 console.log(val1);
 
@@ -62,6 +62,6 @@ console.log(val1);
 
 // condition ? true :false
 
-const  iceTeaPrice =100
-// iceTeaPrice >=80 ? console.log('less  than 80') : console.log('more than 100')
-iceTeaPrice >=80 ? console.log('greater the 80') : console.log('more than 100')
+// const  iceTeaPrice =100
+// // iceTeaPrice >=80 ? console.log('less  than 80') : console.log('more than 100')
+// iceTeaPrice >=80 ? console.log('greater the 80') : console.log('more than 100')
