@@ -202,3 +202,15 @@
 // let str= "my name is navin reddy vlog dfdda".split(" ");
 // let [a,b,, ...d]= str
 // console.log(d);
+
+// arrow funtion
+
+// const greet = (count) => {
+//   for (let i = 0; i < count; i++) {
+//     console.log("good morning");
+//   }
+// };
+// // greet(3);
+
+// const square =(num)=> num*num;
+// console.log(square(4));
