@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.mainContainer{
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 10%;
+
+
+    
+
+
+}
+.container{
+    height: 400px;
+    width: 400px;
+    /* background-color: red; */
+    display: flexbox;
+    border: 1px solid black;
+
+
+}
+.headingText{
+    margin-left: 20px;
+
+}
+.headingText h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
