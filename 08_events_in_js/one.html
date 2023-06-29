@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events in js</title>
+  </head>
+  <body style="background-color: #414141; color:(aliceblue)" >
+    <ul id="image">
+      <li>
+        <img
+          id="lambakheda"
+          src="https://plus.unsplash.com/premium_photo-1667862845435-482054e4cabc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+          alt=""
+          width="200px"
+        />
+      </li>
+      <li>
+        <img
+          id="india"
+          src="https://plus.unsplash.com/premium_photo-1667862845435-482054e4cabc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+          alt=""
+          width="200px"
+        />
+      </li>
+      <li>
+        <img
+          id="sydney"
+          
+          src="https://plus.unsplash.com/premium_photo-1667862845435-482054e4cabc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+          alt=""
+          width="200px"
+        />
+      </li>
+      <li>
+        <img
+          id="europe"
+          src="https://plus.unsplash.com/premium_photo-1667862845435-482054e4cabc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+          alt=""
+          width="200px"
+        />
+      </li>
+
+      <li>
+        <img
+          id="melbourn"
+          src="https://plus.unsplash.com/premium_photo-1667862845435-482054e4cabc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+          alt=""
+          width="200px"
+        />
+        <li><a style="color: rgb(251, 251, 251);" href="https://www.google.com/" id="google">google</a></li>
+
+      </li>
+    </ul>
+  </body> 
+  <script>
+    // its not provide us all functions in this approach
+    // document.getElementById('sydney').onclick=function(){
+    //     alert('its me clicked')
+    // }
+
+    // attachEvent()-used in internetExplorer time
+    //JQuery-onEventlistener
+    
+    // better approach
+    // event prapogation
+
+    // document.getElementById('image').addEventListener('click',function(e){
+    //     console.log('clicked inside the ul');
+        
+    // },false)
+    // document.getElementById('india').addEventListener('click',function(e){
+    //     console.log('india clicked ');
+    //     e.stopPropagation()
+        
+    // },false)
+    // document.getElementById('google').addEventListener('click', function(e){
+    //     console.log('link clicked');
+    //     e.stopPropagation()
+    //     e.preventDefault()
+
+    // },false)
+
+
+    document.querySelector('#image').addEventListener('click',function(e){
+        console.log(e.target.parentNode);
+        if(e.target.tagName==='IMG'){
+            console.log(e.target.id);
+            let removeIt = e.target.parentNode;
+        removeIt.remove()  
+
+        }
+         
+    },false)
+    
+    
+    // removeIt.parentNode.removeChild(removeIt)
+  </script>
+</html>
